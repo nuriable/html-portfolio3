@@ -1,0 +1,66 @@
+.gradient-background {
+    background: linear-gradient(300deg, #CDC1FF, #FFF6E3, #FFCCEA);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+  }
+
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+.title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1, h2 {
+  font-family: "Playwrite AU SA", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.title h2, .contact-title {
+    font-family: "Dongle", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2rem;
+    text-align: center;
+  }
+  
+.onnuri {
+    font-size: 3rem;
+    color: rgb(174, 0, 255);
+}
+
+.title p {
+    text-align: center;
+    font-family: "Gowun Dodum", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+  
+
+#nuriary {
+ width: 100px;
+ height: auto;
+ background-color: white;
+ border-radius: 50%;
+ border-width: 6px 12px;
+ border-style: solid;
+ border-color: white;
+}
+
+.contact-text {
+  text-align: center;
+}
